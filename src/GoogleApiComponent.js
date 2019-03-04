@@ -118,10 +118,10 @@ export const wrapper = input => WrappedComponent => {
       });
 
       return (
-        <div>
+        <>
           <WrappedComponent {...props} />
           <div ref="map" />
-        </div>
+        </>
       );
     }
   }
